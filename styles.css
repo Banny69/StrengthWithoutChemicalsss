@@ -1,0 +1,77 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* App Container */
+#app {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Logo Image */
+#logoImage {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+/* Socials Section */
+#socialsSection {
+    text-align: left;
+}
+
+#socialsSection ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#socialsSection li {
+    margin: 10px 0;
+}
+
+#socialsSection a {
+    text-decoration: none;
+    color: #28a745;
+    font-weight: bold;
+}
+
+#socialsSection a:hover {
+    color: #218838;
+}
+
+/* Hidden Sections */
+.hidden {
+    display: none;
+}
+
+/* Platform Sections */
+.platformSection {
+    text-align: left;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #218838;
+}
